@@ -1,0 +1,16 @@
+document.write() - For debugging/testing purpose
+
+CAN DO
+var carName = "Volvo";
+var carName;
+
+CAN'T DO
+let carName = "Volvo";
+let carName;
+
+Note
+If you put a number in quotes, the rest of the numbers will be treated as strings, and concatenated.
+Example: let x = "5" + 2 + 3;
+x = 523
+2. let x = 2 + 3 + "5";
+x = 55
